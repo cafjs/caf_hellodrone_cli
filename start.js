@@ -1,13 +1,10 @@
 #!/usr/bin/env node
+var argv = require('optimist')
+    .usage('Usage: $0 --videoPort [video port#] --proxy [string] --url (where url'+
+           ' is, e.g.,  http://hellodrone.cafjs.com/iot/<device_id>')
+    .demand(['url'])
+    .argv;
+
 var client = require('./index.js');
-if (process.argv.length === 3) {
-    var config = {url: process.argv[2]};
-    client.start(config);
-} else if (process.argv.length === 4) {
-    var config = {url: process.argv[2], proxy: process.argv[3]};
-    client.start(config);
-} else {
-    console.log('Error: Wrong number of arguments: start.js url '+
-                '<optional_proxy> where url is, e.g.:' +
-                'http://hellodrone.cafjs.com/iot/<device_id>');
-}
+var config = {url: argv.url, proxy: argv.proxy, videoPort:  argv.videoPort};
+client.start(config);

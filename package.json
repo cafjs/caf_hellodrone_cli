@@ -5,7 +5,8 @@
   "author": "Antonio Lain <antlai@cafjs.com>",
   "dependencies": {
       "caf_iot_cli" : ">= 0.0.1",
-      "caf_ardrone" : ">= 0.0.2"
+      "caf_ardrone" : ">= 0.0.2",
+      "optimist" : ">= 0.6.0"
    },
   "main": "index",
   "engines": { "node": ">= 0.8.1 " }
