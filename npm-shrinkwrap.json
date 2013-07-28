@@ -1,6 +1,6 @@
 {
   "name": "caf_hellodrone_cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "caf_iot_cli": {
       "version": "0.0.4",
@@ -42,7 +42,7 @@
       }
     },
     "caf_ardrone": {
-      "version": "0.0.8",
+      "version": "0.0.9",
       "dependencies": {
         "ar-drone": {
           "version": "0.1.0",
