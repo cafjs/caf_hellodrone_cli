@@ -1,7 +1,7 @@
 {
   "name": "caf_hellodrone_cli",
   "description": "Cloud Assistants minimal drone example (code running in drone)",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Antonio Lain <antlai@cafjs.com>",
   "dependencies": {
       "caf_iot_cli" : ">= 0.0.1",
