@@ -1,12 +1,12 @@
 {
   "name": "caf_hellodrone_cli",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "dependencies": {
     "caf_iot_cli": {
       "version": "0.0.4",
       "dependencies": {
         "async": {
-          "version": "0.2.5",
+          "version": "0.2.1",
           "from": "async@>=0.1.9"
         },
         "request": {
@@ -50,7 +50,8 @@
           "dependencies": {
             "buffy": {
               "version": "0.0.4",
-              "from": "buffy@0.0.4"
+              "from": "buffy@0.0.4",
+              "resolved": "http://registry.npmjs.org/buffy/-/buffy-0.0.4.tgz"
             }
           }
         },
@@ -76,7 +77,8 @@
                 },
                 "colors": {
                   "version": "0.6.1",
-                  "from": "colors@0.6.x"
+                  "from": "colors@0.6.x",
+                  "resolved": "http://registry.npmjs.org/colors/-/colors-0.6.1.tgz"
                 },
                 "cycle": {
                   "version": "1.0.2",
@@ -104,7 +106,8 @@
                           "dependencies": {
                             "delayed-stream": {
                               "version": "0.0.5",
-                              "from": "delayed-stream@0.0.5"
+                              "from": "delayed-stream@0.0.5",
+                              "resolved": "http://registry.npmjs.org/delayed-stream/-/delayed-stream-0.0.5.tgz"
                             }
                           }
                         }
@@ -112,7 +115,8 @@
                     },
                     "mime": {
                       "version": "1.2.10",
-                      "from": "mime@~1.2.7"
+                      "from": "mime@~1.2.7",
+                      "resolved": "http://registry.npmjs.org/mime/-/mime-1.2.10.tgz"
                     },
                     "hawk": {
                       "version": "0.10.2",
@@ -183,6 +187,7 @@
     "optimist": {
       "version": "0.6.0",
       "from": "optimist@>= 0.6.0",
+      "resolved": "http://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz",
       "dependencies": {
         "wordwrap": {
           "version": "0.0.2",
@@ -191,7 +196,7 @@
         "minimist": {
           "version": "0.0.1",
           "from": "minimist@~0.0.1",
-          "resolved": "https://registry.npmjs.org/minimist/-/minimist-0.0.1.tgz"
+          "resolved": "http://registry.npmjs.org/minimist/-/minimist-0.0.1.tgz"
         }
       }
     }
